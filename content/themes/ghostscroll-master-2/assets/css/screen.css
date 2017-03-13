@@ -485,6 +485,7 @@ ul li {
     margin: 10px 0 10px 0;
     font-size: 5rem;
     letter-spacing: -1px;
+	color: #000;
 }
 
 .blog-description {
@@ -494,6 +495,7 @@ ul li {
     font-weight: 300;
     font-family: 'Roboto Slab', serif;
     letter-spacing: 0;
+	color: #000;
 }
 
 .post-holder {
@@ -510,8 +512,8 @@ ul li {
 /* Every post, on every page, gets this style on its <article> tag */
 .post {
     position: relative;
-    width: 80%;
-    max-width: 700px;
+    width: 90%;
+    max-width: 800px;
     margin: 0rem auto;
     padding-bottom: 4rem;
     padding-top: 4rem;
@@ -520,6 +522,15 @@ ul li {
     hyphens: auto;
 
 }
+
+.special-post-left{
+	 float: left; 
+	 width: 33%; 
+	
+}
+
+.special-post-right{ float: right; width: 33%; }
+.special-post-center{ display: inline-block; width: 33%; }
 
 /* Add a little circle in the middle of the border-bottom on our .post
    just for the lolz and stylepoints. */
