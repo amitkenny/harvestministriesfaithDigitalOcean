@@ -12,7 +12,7 @@ config = {
     // When running Ghost in the wild, use the production environment.
     // Configure your URL and mail settings here
     production: {
-        url: 'http://139.59.64.205',
+        url: 'http://harvestministries.faith',
         mail: {},
         database: {
 
